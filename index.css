@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(155, 150, 150);
+
+
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+   background-color:rgb(59, 82, 83);
+    position: fixed;
+    box-shadow: 0px 2px 2px 2px rgb(114, 109, 109);
+   margin-bottom: 50px;
+}
+
+
+.slogo {
+    display: flex;
+    justify-content:space-around;
+    float: left;
+    margin-right: 760px;
+
+    
+}
+
+.slogo img {
+    justify-content: flex-start;
+    width: 70px;  
+   border: 5px solid black;
+    border-radius: 50%;
+}
+
+.list {
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.list li{
+    list-style: none;
+    padding: 30px;
+
+}
+.list li a {
+    font-size: 20px;
+    font-style: serif;
+ text-decoration: none;
+ color: #d3e3f3;
+}
+.list li a:hover , ul li{
+    text-decoration: none;
+    color: rgb(3, 70, 88); 
+    font-weight: 700;
+   }
+   /* home page */
+   
+
+   .home {
+    margin-bottom: 5cm;
+   }
+
+   .main{
+    display: flex;
+    justify-content: space-around;
+   }
+.main .maintext {
+    margin-top: 350px;
+    
+    
+}
+.main h1 {
+    font-size: 50px;
+    color: rgb(11, 103, 94);
+}
+.main p{
+    margin: 12px;
+
+}
+.main img {
+    padding: 100px;
+    margin: 100px;
+    
+}
+.maintext a{
+    width: 105%;
+    background-color: rgb(11, 95, 95);
+    border: none;
+    font-size: 22px;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 27px;
+    text-decoration: none;
+
+}
+.maintext a:hover {
+
+  border : 2px solid black;
+  color : black;
+  background-color: blanchedalmond;
+}
+
+
+
+/* carts */
+.shop .head h1{
+    background-color: rgb(59, 82, 83);
+     text-align: center;
+     justify-content: center;
+     padding: 30px;
+     margin-top: 100px;
+}
+.head span {
+    color: rgb(4, 144, 97);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    
+}
+.card .crd {
+    width: 300px;
+    height: 450px;
+    background-color:rgb(59, 82, 83);   
+    text-align: center;
+    margin-inline: 11px;
+    padding: 22px;
+   
+} 
+.crd:hover {
+  transition: 0.3s ease-in-out;
+  height: 450px ;
+  width: 350px;
+}
+
+.crd img{
+       width: 85%;
+       border-radius: 30px ;
+   
+}
+
+.crd h3 {
+ margin-top: 4px;
+}
+.crd i{
+    color: rgb(202, 173, 9);
+    margin-top: 4px;
+}
+
+
+/* contact us*/
+
+.contact .head {
+    text-align: center;
+    background-color:rgb(59, 82, 83);  
+    padding: 29px;
+    margin-bottom: 20px;
+}
+.connect {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    
+}
+.connect input {
+
+    width: 340px;
+    padding: 11px;
+    font-size: 17px;
+    background-color: transparent;
+    margin-top: 11px;
+    border: 4px solid black;
+}
+.connect button{
+    width: 138px;
+    height: 38px;
+    background-color: rgb(2, 99, 67);
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+}
+.connect button:hover {
+    background-color: rgb(153, 163, 160);
+    color: rgb(3, 13, 21);
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+/* About us */
+
+.aboutus {
+    background-color: rgb(59, 82, 83);
+    color: black;
+    padding: 47px;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.me{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 630px;
+    height:  403px;
+    background-color: aliceblue;
+     margin-left: 380px;    
+    border: 5px solid black;
+    
+}
+.me img {
+width: 300px;
+  height: auto;
+  margin-right: 20px;
+
+}
+
+
+.abouttext {
+  max-width: 600px;
+  text-align: left;
+}
+.abouttext h1 {
+  font-size: 2rem;
+  color: #140f0f;
+}
+
+.abouttext p {
+  color: #090808;
+
+}
+
+
+/* service */
+  
+.serhead {
+    background-color: rgb(59, 82, 83);
+    color: rgb(17, 14, 14);
+   padding: 32px;
+    margin: 5px;
+}
+
+.serhead h1 span {
+    color: rgb(12, 126, 126);
+}
+
+.services {
+    display: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 250px;
+    margin: 20px;
+
+}
+
+.service {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+ 
+
+
+
+
+
+
+/* footer */
+ 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(59, 82, 83);
+    padding: 53px;
+    margin-top: 33px;
+    color: rgb(12, 14, 14);
+}
+.footer .fotertext {
+    margin-inline: 85px;
+}
+.fotertext p {
+    margin-top: 11px;
+
+}
+.item  {
+    
+    display: none;
+    align-items:center;
+    justify-content:center;
+    background-color:  rgb(211, 200, 200);;
+    color: black; 
+    min-height: 100px;
+    margin: 50px;
+
+}
+.item img{
+    width: 400px;
+
+}
+.item .itemtext {
+    margin-inline: 29px;
+}
+.itemtext h3{
+    color: rgb(4, 65, 44);
+
+}
+.item p{
+    margin: 5px;
+}
+.item input{
+    width: 43px;
+    height: 39px;
+    padding: 4px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.itemtext a{
+    padding: 4px 20px;
+    background-color: rgb(1, 90, 60);
+    color: azure;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 4px;
+}
+a:hover{
+     background-color: rgb(153, 163, 160);
+    color: rgb(3, 13, 21);
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+/* buynow */
+
+.buyy {
+    display: none;
+    width: 30%;
+    background-color: azure;
+    
+   position: absolute; 
+   left: 47%;
+   right: 50%;
+   top: 11%;
+}
+.buytext {
+    padding: 42px;
+    
+}
+
+.buytext input{
+
+    width: 95%;
+    padding: 7px;
+    border: 2px solid black;
+    margin-top: 8px;
+    font-size: 18px;
+
+}
+
+.buyy .cancel {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(124, 90, 90);
+    
+}
+
+.buytext button {
+    width: 120px;
+    height: 33px;
+    background-color: rgb(3, 88, 60);
+    color: aliceblue;
+    border: none;
+    margin-top: 22px;
+}
+
+.buytext select {
+    padding: 4px;
+    font-size: 18px;
+
+}
+
